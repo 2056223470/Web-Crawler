@@ -1,0 +1,16 @@
+# 优品PPT下载器配置文件
+base_url: 'https://www.ypppt.com'
+start_url: 'https://www.ypppt.com/moban'
+save_path: '../素材/优品ppt'
+csv_path: '../素材/优品ppt/ppt信息表.csv'
+max_concurrent: 5
+timeout: 30
+retry_attempts: 3
+chunk_size: 8192
+user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+csv_fields:
+  - '标题'
+  - '比例'
+  - '页数'
+  - '效果'
+  - '下载地址'

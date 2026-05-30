@@ -1,0 +1,7 @@
+# 视频下载器配置文件
+base_url: 'https://www.99meiju.com/play/17686-0-0.html'
+save_path: '../素材/美剧/'
+max_concurrent: 10
+chunk_size: 8192
+timeout: 30
+retry_attempts: 3
