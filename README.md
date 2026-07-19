@@ -34,7 +34,8 @@
 ├── webpack/                 # Webpack 打包站点逆向
 ├── JS/                      # 纯 JS 环境加密逻辑
 ├── 混淆/                    # 代码混淆站点
-└── 多流程/                  # 请求参数与响应均为加密的复合流程
+├── 多流程/                  # 请求参数与响应均为加密的复合流程
+└── 验证码登录/              # 浏览器自动化 + 滑块验证码识别
 ```
 
 ---
@@ -47,6 +48,8 @@
 | HTTP | requests、requests-html |
 | JS 执行 | PyExecJS、subprocess + Node.js |
 | 加密 | crypto-js、Node.js crypto、pycryptodome |
+| 浏览器自动化 | DrissionPage（验证码登录案例） |
+| 验证码识别 | 超级鹰 API（坐标类题目） |
 | 数据存储 | CSV、MongoDB（12306 课设版） |
 | 其他 | YAML 配置、观察者模式（课设架构） |
 
